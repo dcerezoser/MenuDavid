@@ -1,0 +1,30 @@
+article{
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px black solid;
+    text-align: center;
+    align-self: center;
+    margin: auto;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    border: 1px black solid;
+    align-items: center;
+}
+
+input, select{
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    opacity: 0.9;
+}
+
+input[type="submit"]:hover{
+    background-color: antiquewhite;
+    transform: scale(1.1);
+}

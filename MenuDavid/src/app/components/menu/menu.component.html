@@ -1,0 +1,8 @@
+<h1>Selecciona el día para ver el menú</h1>
+<aside>
+<div *ngFor="let menuDay of menus">
+    <div class="header">
+        <button routerLink="dayMenu/{{menuDay.day}}">{{menuDay.day | uppercase}}</button>
+    </div>
+</div>
+</aside>

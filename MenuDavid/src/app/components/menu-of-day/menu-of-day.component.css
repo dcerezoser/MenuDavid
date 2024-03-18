@@ -1,0 +1,31 @@
+.tarjet{
+    width: 20%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    border-radius: 3em;
+    box-shadow: 10px 10px 10px black;
+    text-align: center;
+    color: antiquewhite;
+    overflow: hidden;
+    margin: auto;
+    padding: 2em;
+    background-image: url(../../../assets/imgs/fondo2.avif);
+    background-size: cover;
+    opacity: 0.8;
+}
+
+button{
+    margin: 1em;
+    border-radius: 1em;
+    padding: 1em;
+    opacity: 0.5;
+}
+
+button:hover{
+    background-color: antiquewhite;
+    
+    transform: scale(1.1);
+}
+

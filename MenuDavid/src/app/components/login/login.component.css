@@ -1,0 +1,38 @@
+section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px black solid;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 2em;
+    width: 50%;
+    align-self: center;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2em;
+    min-width: auto;
+    padding: 2em;
+    min-height: min-content;
+    color: antiquewhite;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    text-align: center;
+}
+
+input{
+    margin: 1em;
+    border-radius: 1em;
+    padding: 1em;
+    opacity: 0.8;
+}
+
+input[type="submit"]:hover{
+    background-color: antiquewhite;
+    transform: scale(1.1);
+}

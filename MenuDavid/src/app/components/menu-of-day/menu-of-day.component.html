@@ -1,0 +1,15 @@
+<div *ngFor="let menu of menus">
+    <div *ngIf="menu.day===day">
+        <div class="tarjet">
+            <h2>{{menu.day | uppercase}}</h2>
+            <p (click)="ordered(menu.starter)">Primer plato: {{menu.starter}}</p>
+            <p (click)="ordered(menu.main_course)">Segundo plato: {{menu.main_course}}</p>
+            <p (click)="ordered(menu.dessert)">Postre: {{menu.dessert}}</p>
+            <p>Precio: {{menu.price | currency}}</p>
+            <button routerLink="/menu">Menús</button>
+        </div>
+    </div>
+</div>
+
+    
+

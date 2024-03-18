@@ -1,0 +1,19 @@
+<article>
+<h2>Selecciona el día para cambiar el menú</h2>
+<select [(ngModel)]="daySelected" (change)="getMenuDay()">
+    <option *ngFor="let menu of menus" [value]="menu.day">{{menu.day}}</option>
+</select>
+
+<section>
+<div *ngIf="daySelected">
+    <h3>Cambiar el menú del: {{daySelected}}</h3>
+    <label for="starter">Primero</label>
+    <input type="text" id="starter" name="starter" [(ngModel)]="menuDay.starter">
+    <label for="main"> Segundo</label>
+    <input type="text" id="main" name="main" [(ngModel)]="menuDay.main_course">
+    <label for="dessert">Postre</label>
+    <input type="text" name="dessert" id="dessert" [(ngModel)]="menuDay.dessert">
+    <input type="submit" (click)="modifyMenu()" value="Cambiar">
+</div>
+</section>
+</article>

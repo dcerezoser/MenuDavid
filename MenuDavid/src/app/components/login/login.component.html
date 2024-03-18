@@ -1,0 +1,11 @@
+<section>
+<h1>Área privada</h1>
+<form [formGroup]="formLogin" (ngSubmit)="authUser()">
+    <label for="user">Usuario</label>
+    <input type="text" id="user" formControlName="user">
+    <label for="password">Password</label>
+    <input type="password" id="password" formControlName="password">
+    <input type="submit" value="Login">
+</form>
+</section>
+

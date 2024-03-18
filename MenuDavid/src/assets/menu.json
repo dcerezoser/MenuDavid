@@ -1,0 +1,37 @@
+[
+  {
+    "day": "Lunes",
+    "starter" : "Ensalada",
+    "main_course": "Spagettis",
+    "dessert": "Flan",
+    "price": "6.90"
+  },
+  {
+    "day": "Martes",
+    "starter" : "Menestra",
+    "main_course": "Pescado",
+    "dessert": "Tarta de la abuela",
+    "price": "6.90"
+  },
+  {
+    "day": "Miércoles",
+    "starter" : "Sopa de pescado",
+    "main_course": "Alubias",
+    "dessert": "Arroz con leche",
+    "price": "6.90"
+  },
+  {
+    "day": "Jueves",
+    "starter" : "Pimientos rellenos",
+    "main_course": "Filete de ternera",
+    "dessert": "Fruta",
+    "price": "6.90"
+  },
+  {
+    "day": "Viernes",
+    "starter" : "Sopas de ajo",
+    "main_course": "Dorada",
+    "dessert": "Flan de cafe",
+    "price": "6.90"
+  }
+]

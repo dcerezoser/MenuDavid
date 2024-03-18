@@ -1,0 +1,57 @@
+h1{
+    color: antiquewhite;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+div{
+    margin: 6em;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button{
+    height: 20rem;
+    width: 20rem;
+    margin: 2em;
+    border-radius: 1em;
+    box-shadow: 10px 10px 20px black;
+    color: antiquewhite;
+    font-size: x-large;
+    position: relative;
+}
+
+p{
+    position: absolute;
+    top: 0;
+    right: 0%;
+}
+
+.menu{
+    background-image: url(../../../assets/imgs/menu.avif);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    overflow: hidden;
+}
+
+.admin{
+    background-image: url(../../../assets/imgs/privado.jpeg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    overflow: hidden;
+}
+
+.menu:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.admin:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
